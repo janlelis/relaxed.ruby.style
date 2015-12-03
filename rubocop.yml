@@ -39,10 +39,16 @@ Style/Lambda:
 Style/ModuleFunction:
   Enabled: false
 
+Style/MultilineBlockChain:
+  Enabled: false
+
 Style/NegatedIf:
   Enabled: false
 
 Style/NegatedWhile:
+  Enabled: false
+
+Style/ParallelAssignment:
   Enabled: false
 
 Style/PercentLiteralDelimiters:
