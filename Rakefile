@@ -19,3 +19,7 @@ task :gem do
   puts; sh %{gem install --no-document pkg/#{gemspec.name}-#{gemspec.version}.gem}
 end
 
+# # #
+# Build tasks
+
+require 'middleman-gh-pages'
