@@ -77,6 +77,11 @@ instead of copying all methods. Less magic!
 
 [More Info](http://idiosyncratic-ruby.com/8-self-improvement.html)
 
+### Style/MultilineBlockChain
+
+Chain multiple blocks when it makes sense, this promotes a functional
+programming mindset.
+
 ### Style/NegatedIf
 
 Always use `if !condition` for complex conditions with negations. For simple
@@ -87,6 +92,11 @@ some later point, it's also OK to use `unless condition`.
 
 Always use `while !condition` for complex conditions with negations. For simple 
 conditions, it's also OK to use `until condition`.
+
+### Style/ParallelAssignment
+
+Parallel assignment can sometimes express the intented logic better than
+sequential assignment. It is also [faster](https://github.com/JuanitoFatas/fast-ruby#parallel-assignment-vs-sequential-assignment-code).
 
 ### Style/PercentLiteralDelimiters
 
