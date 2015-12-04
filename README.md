@@ -188,4 +188,12 @@ be discussed, tweaked and activated individually.
 ## Discussion
 
 * [This Guide](https://github.com/janlelis/relaxed.ruby.style/issues/)
-* [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide/issues/)
+* [Ruby Style Guide (Rubocop)](https://github.com/bbatsov/ruby-style-guide/issues/)
+
+## Other Ruby Style Guides
+
+* [Ruby Style Guide (Rubocop)](https://github.com/bbatsov/ruby-style-guide/issues/)
+** [GitHub](https://github.com/styleguide/ruby)
+** [Airbnb](https://github.com/airbnb/ruby)
+* [Christian Neukirchen](https://github.com/chneukirchen/styleguide/blob/master/RUBY-STYLE)
+* [Fast Ruby](https://github.com/JuanitoFatas/fast-ruby)
