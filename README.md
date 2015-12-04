@@ -192,8 +192,9 @@ be discussed, tweaked and activated individually.
 
 ## Other Ruby Style Guides
 
+* [Christian Neukirchen](https://github.com/chneukirchen/styleguide/blob/master/RUBY-STYLE)
+* [Fast Ruby](https://github.com/JuanitoFatas/fast-ruby)
 * [Ruby Style Guide (Rubocop)](https://github.com/bbatsov/ruby-style-guide/issues/)
   * [GitHub](https://github.com/styleguide/ruby)
   * [Airbnb](https://github.com/airbnb/ruby)
-* [Christian Neukirchen](https://github.com/chneukirchen/styleguide/blob/master/RUBY-STYLE)
-* [Fast Ruby](https://github.com/JuanitoFatas/fast-ruby)
+
