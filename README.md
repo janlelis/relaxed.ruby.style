@@ -115,7 +115,8 @@ the literal's content.
 ### Style/PerlBackrefs
 
 [Disabled rule](https://github.com/bbatsov/ruby-style-guide#no-perl-regexp-last-matchers).
-It is fine to use `$1` - `$9` to access the contents of your last matched regex groups.
+It is fine to use the special **local** variables `$1` - `$9` to access the contents of
+your last matched regex groups.
 
 ### Style/Semicolon
 
