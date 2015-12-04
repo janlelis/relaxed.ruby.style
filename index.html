@@ -20,17 +20,23 @@
       
      	<article class="post">
 
-<p>A more liberal style guide for <a href="https://github.com/bbatsov/rubocop">RuboCop</a>. It comes with a <a href="http://relaxed.ruby.style/rubocop.yml">config file</a> that deactivates some or RuboCop's features. It is meant as a less restrictive foundation that you can use directly or base your style discussions on.</p>
+<p>A more liberal style guide for <a href="https://github.com/bbatsov/rubocop">RuboCop</a>. It comes
+with a <a href="http://relaxed.ruby.style/rubocop.yml">config file</a> that deactivates some of
+RuboCop's features. It is meant as a less restrictive foundation that you can use
+directly or base your style discussions on.</p>
 
 <h3 id="motivation">Motivation</h3>
 
-<p>RuboCop is an amazing tool, still some of its default rules feel overly strict. This might distract you from the helpful messages.</p>
+<p>RuboCop is an amazing tool, still some of its default rules feel overly strict. This
+might distract you from the helpful messages.</p>
 
 <p><strong>Warning:</strong> Does include opinionated style advice.</p>
 
 <h3 id="how-to-read-this-style-guide">How to Read this Style Guide</h3>
 
-<p>This is not a stand-alone style guide, but a patch applied to <a href="https://github.com/bbatsov/ruby-style-guide">bbatsov/ruby-style-guide</a> (the style guide RuboCop is based on).</p>
+<p>This is not a stand-alone style guide, but a patch applied to
+<a href="https://github.com/bbatsov/ruby-style-guide">bbatsov/ruby-style-guide</a>
+(the style guide RuboCop is based on).</p>
 
 <h3 id="usage">Usage</h3>
 
@@ -40,23 +46,18 @@
 
 <h3 id="stylealias">Style/Alias</h3>
 
-<p>Feel free to use the <code>alias</code> keyword when appropriate.</p>
-
-<h3 id="lintambiguousregexpliteral">Lint/AmbiguousRegexpLiteral</h3>
-
-<p>Use regex normally.</p>
-
-<h3 id="lintassignmentincondition">Lint/AssignmentInCondition</h3>
-
-<p>Use <code>=</code> for assignments in conditions. Use <code>==</code> for comparisons in conditions.</p>
+<p><a href="https://github.com/bbatsov/ruby-style-guide#alias-method">Disabled rule</a>. Feel free to
+use the <code>alias</code> keyword when appropriate.</p>
 
 <h3 id="stylebeginblock">Style/BeginBlock</h3>
 
-<p>Use <code>BEGIN</code> blocks when it makes sense.</p>
+<p><a href="https://github.com/bbatsov/ruby-style-guide#no-BEGIN-blocks">Disabled rule</a>. Use <code>BEGIN</code>
+blocks when it makes sense.</p>
 
 <h3 id="styleblockdelimiters">Style/BlockDelimiters</h3>
 
-<p>Consider <a href="https://github.com/chneukirchen/styleguide/blob/e60de37b478d3f892f6985a58d573016f33f0269/RUBY-STYLE#L63-L67">using <code>{}</code> for multi-line blocks</a></p>
+<p><a href="https://github.com/bbatsov/ruby-style-guide#single-line-blocks">Disabled rule</a>.
+Consider <a href="https://github.com/chneukirchen/styleguide/blob/e60de37b478d3f892f6985a58d573016f33f0269/RUBY-STYLE#L63-L67">using <code>{}</code> for multi-line blocks</a>.</p>
 
 <h3 id="styledocumentation">Style/Documentation</h3>
 
@@ -65,84 +66,97 @@ method and variable names!</p>
 
 <h3 id="styledotposition">Style/DotPosition</h3>
 
-<p>When chaining methods on multiple lines, it is a good idea to put the dots at the end
-of the lines to indicate that the expression continues on the next line.</p>
+<p><a href="https://github.com/bbatsov/ruby-style-guide#consistent-multi-line-chains">Disabled rule</a>.
+When chaining methods on multiple lines, it is a good idea to put the dots at the end of
+the lines to indicate that the expression continues on the next line.</p>
 
 <h3 id="styledoublenegation">Style/DoubleNegation</h3>
 
-<p>Use <code>!!variable</code> to get the boolean value of a variable.</p>
+<p><a href="https://github.com/bbatsov/ruby-style-guide#no-bang-bang">Disabled rule</a>. Use <code>!!variable</code>
+to get the boolean value of a variable.</p>
 
 <h3 id="styleendblock">Style/EndBlock</h3>
 
-<p>Use <code>END</code> blocks or `Kernel#at_exit' for code that should be executed when the
-program quits.</p>
+<p><a href="https://github.com/bbatsov/ruby-style-guide#no-END-blocks">Disabled rule</a>. Use <code>END</code>
+blocks or `Kernel#at_exit' for code that should be executed when the program quits.</p>
 
 <h3 id="styleformatstring">Style/FormatString</h3>
 
-<p>Creating format string can be done using the <code>String#%</code> method.</p>
+<p><a href="https://github.com/bbatsov/ruby-style-guide#sprintf">Disabled rule</a>. Creating format
+string can be done using the <code>String#%</code> method.</p>
 
 <h3 id="styleifunlessmodifier">Style/IfUnlessModifier</h3>
 
-<p>Use or don't use <code>if</code>/<code>unless</code> in modifier style whenever you think it improves
-code readability.</p>
+<p><a href="https://github.com/bbatsov/ruby-style-guide#if-as-a-modifier">Disabled rule</a>. Use or
+don't use <code>if</code>/<code>unless</code> in modifier style whenever you think it improves code readability.</p>
 
 <h3 id="stylelambda">Style/Lambda</h3>
 
-<p>Use <code>-&gt;(){}</code> or <code>lambda{}</code> to create lambdas.</p>
+<p><a href="https://github.com/bbatsov/ruby-style-guide#lambda-multi-line">Disabled rule</a>. Use
+<code>-&gt;(){}</code> or <code>lambda{}</code> to create lambdas.</p>
 
 <h3 id="stylemodulefunction">Style/ModuleFunction</h3>
 
-<p>Prefer <code>extend self</code> over <code>module_function</code>. It uses Ruby's inheritance chain,
-instead of copying all methods. Less magic!</p>
-
-<p><a href="http://idiosyncratic-ruby.com/8-self-improvement.html">More Info</a></p>
+<p><a href="https://github.com/bbatsov/ruby-style-guide#module-function">Disabled rule</a>. Prefer
+<code>extend self</code> over <code>module_function</code>. It uses Ruby's inheritance chain, instead of
+copying all methods. Less magic!
+<a href="http://idiosyncratic-ruby.com/8-self-improvement.html">More Info</a></p>
 
 <h3 id="stylemultilineblockchain">Style/MultilineBlockChain</h3>
 
-<p>Chain multiple blocks when it makes sense, this promotes a functional
-programming mindset.</p>
+<p><a href="https://github.com/bbatsov/ruby-style-guide#single-line-blocks">Disabled rule</a>. Chain
+multiple blocks when it makes sense, this promotes a functional programming mindset.</p>
 
 <h3 id="stylenegatedif">Style/NegatedIf</h3>
 
-<p>Always use <code>if !condition</code> for complex conditions with negations. For simple
-conditions, for which it also unlikely that an else clause will be added at
-some later point, it's also OK to use <code>unless condition</code>.</p>
+<p><a href="https://github.com/bbatsov/ruby-style-guide#unless-for-negatives">Disabled rule</a>. Always
+use <code>if !condition</code> for complex conditions with negations. For simple conditions, for
+which it also unlikely that an else clause will be added at some later point, it is also
+OK to use <code>unless condition</code>.</p>
 
 <h3 id="stylenegatedwhile">Style/NegatedWhile</h3>
 
-<p>Always use <code>while !condition</code> for complex conditions with negations. For simple 
-conditions, it's also OK to use <code>until condition</code>.</p>
+<p><a href="https://github.com/bbatsov/ruby-style-guide#until-for-negatives">Disabled rule</a>. Always
+use <code>while !condition</code> for complex conditions with negations. For simple conditions,
+it is also OK to use <code>until condition</code>.</p>
 
 <h3 id="styleparallelassignment">Style/ParallelAssignment</h3>
 
-<p>Parallel assignment can sometimes express the intented logic better than
-sequential assignment. It is also <a href="https://github.com/JuanitoFatas/fast-ruby#parallel-assignment-vs-sequential-assignment-code">faster</a>.</p>
+<p><a href="https://github.com/bbatsov/ruby-style-guide#parallel-assignment">Disabled rule</a>.
+Parallel assignment can sometimes express the intented logic better than sequential
+assignment. It is also <a href="https://github.com/JuanitoFatas/fast-ruby#parallel-assignment-vs-sequential-assignment-code">faster</a>.</p>
 
 <h3 id="stylepercentliteraldelimiters">Style/PercentLiteralDelimiters</h3>
 
-<p>When creating literals with the <code>%</code> syntax, choose any delimiters that don't
-interfere with the literal's content.</p>
+<p><a href="https://github.com/bbatsov/ruby-style-guide#percent-literal-braces">Disabled rule</a>. When
+creating literals with the <code>%</code> syntax, choose any delimiters that don't interfere with
+the literal's content.</p>
 
 <h3 id="styleperlbackrefs">Style/PerlBackrefs</h3>
 
-<p>It is fine to use <code>$1</code> - <code>$9</code> to access the contents of your last matched
-regex groups.</p>
+<p><a href="https://github.com/bbatsov/ruby-style-guide#no-perl-regexp-last-matchers">Disabled rule</a>.
+It is fine to use the special <strong>local</strong> variables <code>$1</code> - <code>$9</code> to access the contents of
+your last matched regex groups.</p>
 
 <h3 id="stylesemicolon">Style/Semicolon</h3>
 
-<p>Usage of semicolons to separate multiple statements is OK.</p>
+<p><a href="https://github.com/bbatsov/ruby-style-guide#no-semicolon">Disabled rule</a>. Usage of
+semicolons to separate multiple statements is OK.</p>
 
 <h3 id="stylesignalexception">Style/SignalException</h3>
 
-<p>You are free to choose if you want to raise exceptions with <code>raise</code> or <code>fail</code>!</p>
+<p><a href="https://github.com/bbatsov/ruby-style-guide#fail-method">Disabled rule</a>. You are free
+to choose if you want to raise exceptions with <code>raise</code> or <code>fail</code>.</p>
 
 <h3 id="stylesinglelineblockparams">Style/SingleLineBlockParams</h3>
 
-<p>Don't give your block parameters bad names.</p>
+<p><a href="https://github.com/bbatsov/ruby-style-guide#reduce-blocks">Disabled rule</a>. Don't give
+your block parameters bad names.</p>
 
 <h3 id="stylesinglelinemethods">Style/SingleLineMethods</h3>
 
-<p>Single-line methods can be useful for short getter- or setter-like methods, when
+<p><a href="https://github.com/bbatsov/ruby-style-guide#no-single-line-methods">Disabled rule</a>.
+Single-line methods can be useful for short getter- or setter-like methods, when
 <code>attr_reader</code> / <code>attr_accessor</code> / <code>attr_writer</code> are not enough anymore.</p>
 
 <h3 id="stylespacebeforeblockbraces">Style/SpaceBeforeBlockBraces</h3>
@@ -151,27 +165,40 @@ regex groups.</p>
 
 <h3 id="stylespaceinsideparens">Style/SpaceInsideParens</h3>
 
-<p>Avoid putting spaces inside parentheses, but do it when it improves readability.
+<p><a href="https://github.com/bbatsov/ruby-style-guide#no-spaces-braces">Disabled rule</a>. Avoid
+putting spaces inside parentheses, but do it when it improves readability.
 For example, when using RSpec's <code>expect</code> method.</p>
 
 <h3 id="stylespecialglobalvars">Style/SpecialGlobalVars</h3>
 
-<p>Refering to two-letter version of special global variables is OK, although not
-very polite.</p>
+<p><a href="https://github.com/bbatsov/ruby-style-guide#no-cryptic-perlisms">Disabled rule</a>.
+Refering to <a href="http://idiosyncratic-ruby.com/9-globalization.html#list-of-all-two-letter-global-variables">two-letter version of special global variables</a> is OK, although not very polite.</p>
 
 <h3 id="stylestringliterals">Style/StringLiterals</h3>
 
-<p>Deliberately use single or double quoted strings!</p>
+<p><a href="https://github.com/bbatsov/ruby-style-guide#consistent-string-literals">Disabled rule</a>.
+Deliberately use single or double quoted strings!</p>
 
 <h3 id="styletrailingcomma">Style/TrailingComma</h3>
 
-<p>Use trailing commas in multi-line literals! Consider using RuboCop's
+<p><a href="https://github.com/bbatsov/ruby-style-guide#no-trailing-array-commas">Disabled rule</a>.
+Use trailing commas in multi-line literals. It makes manipulating the literal easier
+(reordering, appending, removing) and leads to smaller git diffs. Consider using RuboCop's
 <code>EnforcedStyleForMultiline: consistent_comma</code> option.</p>
 
 <h3 id="stylewhileuntilmodifier">Style/WhileUntilModifier</h3>
 
-<p>Use or don't use <code>while</code>/<code>until</code> in modifier style whenever you think it improves
-code readability.</p>
+<p><a href="https://github.com/bbatsov/ruby-style-guide#while-as-a-modifier">Disabled rule</a>. Use or
+don't use <code>while</code>/<code>until</code> in modifier style whenever you think it improves code
+readability.</p>
+
+<h3 id="lintambiguousregexpliteral">Lint/AmbiguousRegexpLiteral</h3>
+
+<p>Use regex normally.</p>
+
+<h3 id="lintassignmentincondition">Lint/AssignmentInCondition</h3>
+
+<p><a href="https://github.com/bbatsov/ruby-style-guide#safe-assignment-in-condition">Disabled rule</a>. Use <code>=</code> for assignments in conditions. Use <code>==</code> for comparisons in conditions.</p>
 
 <h3 id="metrics">Metrics</h3>
 
@@ -181,8 +208,18 @@ be discussed, tweaked and activated individually.</p>
 <h2 id="discussion">Discussion</h2>
 
 <ul>
-  <li><a href="https://github.com/janlelis/relaxed.ruby.style/issues/">Relaxed.Ruby.Style</a></li>
-  <li><a href="https://github.com/bbatsov/ruby-style-guide/issues/">ruby-style-guide</a></li>
+  <li><a href="https://github.com/janlelis/relaxed.ruby.style/issues/">This Guide</a></li>
+  <li><a href="https://github.com/bbatsov/ruby-style-guide/issues/">Ruby Style Guide (Rubocop)</a></li>
+</ul>
+
+<h2 id="other-ruby-style-guides">Other Ruby Style Guides</h2>
+
+<ul>
+  <li><a href="https://github.com/bbatsov/ruby-style-guide/issues/">Ruby Style Guide (Rubocop)</a>
+** <a href="https://github.com/styleguide/ruby">GitHub</a>
+** <a href="https://github.com/airbnb/ruby">Airbnb</a></li>
+  <li><a href="https://github.com/chneukirchen/styleguide/blob/master/RUBY-STYLE">Christian Neukirchen</a></li>
+  <li><a href="https://github.com/JuanitoFatas/fast-ruby">Fast Ruby</a></li>
 </ul>
 </article>
     </div>
