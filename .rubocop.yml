@@ -100,9 +100,9 @@ Style/StringLiterals:
   Enabled: false
   StyleGuide: http://relaxed.ruby.style/#stylestringliterals
 
-Style/TrailingComma:
+Style/TrailingCommaInLiteral:
   Enabled: false
-  StyleGuide: http://relaxed.ruby.style/#styletrailingcomma
+  StyleGuide: http://relaxed.ruby.style/#styletrailingcommainliteral
 
 Style/WhileUntilModifier:
   Enabled: false
