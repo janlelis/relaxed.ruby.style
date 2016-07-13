@@ -159,7 +159,7 @@ Refering to [two-letter version of special global variables](http://idiosyncrati
 [Disabled rule](https://github.com/bbatsov/ruby-style-guide#consistent-string-literals).
 Deliberately use single or double quoted strings!
 
-### Style/TrailingComma
+### Style/TrailingCommaInLiteral
 
 [Disabled rule](https://github.com/bbatsov/ruby-style-guide#no-trailing-array-commas).
 Use trailing commas in multi-line literals. It makes manipulating the literal easier
