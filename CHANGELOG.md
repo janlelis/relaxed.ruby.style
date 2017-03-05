@@ -3,6 +3,7 @@
 ## Version 2.0
 
 - Disable Style/AsciiComments
+- Disable Style/CommentAnnotation
 - Disable Style/TrailingCommaInArguments
 
 ## Version 1.1

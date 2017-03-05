@@ -17,6 +17,10 @@ Style/BlockDelimiters:
   Enabled: false
   StyleGuide: http://relaxed.ruby.style/#styleblockdelimiters
 
+Style/CommentAnnotation:
+  Enabled: false
+  StyleGuide: http://relaxed.ruby.style/#stylecommentannotation
+
 Style/Documentation:
   Enabled: false
   StyleGuide: http://relaxed.ruby.style/#styledocumentation

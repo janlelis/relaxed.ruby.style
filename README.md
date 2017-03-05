@@ -46,6 +46,11 @@ blocks when you need its functionality.
 [Disabled rule](https://github.com/bbatsov/ruby-style-guide#single-line-blocks).
 Consider [using `{}` for multi-line blocks](https://github.com/chneukirchen/styleguide/blob/e60de37b478d3f892f6985a58d573016f33f0269/RUBY-STYLE#L63-L67).
 
+### Style/CommentAnnotation
+
+[Disabled rule](https://github.com/bbatsov/ruby-style-guide#annotate-keywords). It is
+totally optional to put a colon and a space behind **TODO**s and **FIXME**s
+
 ### Style/Documentation
 
 Document your code and/or write a good ReadMe. And good specs. Choose descriptive
