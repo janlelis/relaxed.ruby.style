@@ -32,7 +32,7 @@ use the `alias` keyword when appropriate.
 ### Style/BeginBlock
 
 [Disabled rule](https://github.com/bbatsov/ruby-style-guide#no-BEGIN-blocks). Use `BEGIN`
-blocks when it makes sense.
+blocks when you need its functionality.
 
 ### Style/BlockDelimiters
 
@@ -58,12 +58,12 @@ to get the boolean value of a variable.
 ### Style/EndBlock
 
 [Disabled rule](https://github.com/bbatsov/ruby-style-guide#no-END-blocks). Use `END`
-blocks or `Kernel#at_exit' for code that should be executed when the program quits.
+blocks or `Kernel#at_exit` for code that should be executed when the program quits.
 
 ### Style/FormatString
 
 [Disabled rule](https://github.com/bbatsov/ruby-style-guide#sprintf). Creating format
-string can be done using the `String#%` method.
+string should be done using the [`String#%` method](http://idiosyncratic-ruby.com/49-what-the-format.html).
 
 ### Style/IfUnlessModifier
 
@@ -72,15 +72,15 @@ don't use `if`/`unless` in modifier style whenever you think it improves code re
 
 ### Style/Lambda
 
-[Disabled rule](https://github.com/bbatsov/ruby-style-guide#lambda-multi-line). Use
-`->(){}` or `lambda{}` to create lambdas.
+[Disabled rule](https://github.com/bbatsov/ruby-style-guide#lambda-multi-line). It does
+not matter if you use `->(){}` or `lambda{}` to create lambdas.
 
 ### Style/ModuleFunction
 
 [Disabled rule](https://github.com/bbatsov/ruby-style-guide#module-function). Prefer
 `extend self` over `module_function`. It uses Ruby's inheritance chain, instead of
 copying all methods. Less magic!
-[More Info](http://idiosyncratic-ruby.com/8-self-improvement.html)
+[More info](http://idiosyncratic-ruby.com/8-self-improvement.html).
 
 ### Style/MultilineBlockChain
 
@@ -125,13 +125,12 @@ semicolons to separate multiple statements is OK.
 
 ### Style/SignalException
 
-[Disabled rule](https://github.com/bbatsov/ruby-style-guide#fail-method). You are free
-to choose if you want to raise exceptions with `raise` or `fail`.
+*(Dropped from RuboCop style guide)*. You are free to choose if you want to raise
+exceptions with `raise` or `fail`.
 
 ### Style/SingleLineBlockParams
 
-[Disabled rule](https://github.com/bbatsov/ruby-style-guide#reduce-blocks). Don't give
-your block parameters bad names.
+*(Dropped from RuboCop style guide)*. Don't give your block parameters bad names.
 
 ### Style/SingleLineMethods
 
@@ -152,7 +151,7 @@ For example, when using RSpec's `expect` method.
 ### Style/SpecialGlobalVars
 
 [Disabled rule](https://github.com/bbatsov/ruby-style-guide#no-cryptic-perlisms).
-Refering to [two-letter version of special global variables](http://idiosyncratic-ruby.com/9-globalization.html#list-of-all-two-letter-global-variables) is OK, although not very polite.
+Refering to [two-letter version of special global variables](http://idiosyncratic-ruby.com/9-globalization.html#list-of-all-special-global-variables) is OK, although not very polite.
 
 ### Style/StringLiterals
 
@@ -178,23 +177,19 @@ Use regex normally.
 
 ### Lint/AssignmentInCondition
 
-[Disabled rule](https://github.com/bbatsov/ruby-style-guide#safe-assignment-in-condition). Use `=` for assignments in conditions. Use `==` for comparisons in conditions.
+[Disabled rule](https://github.com/bbatsov/ruby-style-guide#safe-assignment-in-condition).
+Use `=` for assignments in conditions. Use `==` for comparisons in conditions.
 
 ### Metrics
 
 RuboCop's code complexity metrics can be very useful indications, however, they should
 be discussed, tweaked and activated individually.
 
-## Discussion
-
-* [This Guide](https://github.com/janlelis/relaxed.ruby.style/issues/)
-* [Ruby Style Guide (Rubocop)](https://github.com/bbatsov/ruby-style-guide/issues/)
-
 ## Other Ruby Style Guides
 
 * [Christian Neukirchen](https://github.com/chneukirchen/styleguide/blob/master/RUBY-STYLE)
 * [Fast Ruby](https://github.com/JuanitoFatas/fast-ruby)
-* [Ruby Style Guide (Rubocop)](https://github.com/bbatsov/ruby-style-guide/issues/)
+* [Ruby Style Guide (Rubocop)](https://github.com/bbatsov/ruby-style-guide/)
   * [GitHub](https://github.com/styleguide/ruby)
   * [Airbnb](https://github.com/airbnb/ruby)
 * [Shopify](http://shopify.github.io/ruby-style-guide/)
