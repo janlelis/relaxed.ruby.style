@@ -197,4 +197,5 @@ be discussed, tweaked and activated individually.
 * [Ruby Style Guide (Rubocop)](https://github.com/bbatsov/ruby-style-guide/issues/)
   * [GitHub](https://github.com/styleguide/ruby)
   * [Airbnb](https://github.com/airbnb/ruby)
+* [Shopify](http://shopify.github.io/ruby-style-guide/)
 
