@@ -1,5 +1,7 @@
 # [Relaxed.Ruby.Style](http://relaxed.ruby.style)
 
+## Version 1.1
+
 A more liberal style guide for [RuboCop](https://github.com/bbatsov/rubocop). It comes
 with a [config file](http://relaxed.ruby.style/rubocop.yml) that deactivates some of
 RuboCop's features. It is meant as a less restrictive foundation that you can use
