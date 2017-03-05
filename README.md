@@ -31,6 +31,11 @@ Use, copy or inherit from [`rubocop.yml`](http://relaxed.ruby.style/rubocop.yml)
 [Disabled rule](https://github.com/bbatsov/ruby-style-guide#alias-method). Feel free to
 use the `alias` keyword when appropriate.
 
+### Style/AsciiComments
+
+You are free to use your source encoding in code comments. For example, if your source
+encoding is UTF-8, you can use UTF-8 characters in comments.
+
 ### Style/BeginBlock
 
 [Disabled rule](https://github.com/bbatsov/ruby-style-guide#no-BEGIN-blocks). Use `BEGIN`

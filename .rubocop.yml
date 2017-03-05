@@ -5,6 +5,10 @@ Style/Alias:
   Enabled: false
   StyleGuide: http://relaxed.ruby.style/#stylealias
 
+Style/AsciiComments:
+  Enabled: false
+  StyleGuide: http://relaxed.ruby.style/#styleasciicomments
+
 Style/BeginBlock:
   Enabled: false
   StyleGuide: http://relaxed.ruby.style/#stylebeginblock
