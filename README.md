@@ -184,6 +184,13 @@ Use trailing commas in multi-line literals. It makes manipulating the literal ea
 (reordering, appending, removing) and leads to smaller git diffs. Consider using RuboCop's
 `EnforcedStyleForMultiline: consistent_comma` option.
 
+### Style/WordArray
+
+[Word arrays using the percent syntax](https://en.wikibooks.org/wiki/Ruby_Programming/Syntax/Literals#The_.25_Notation)
+make for a good and concise way to create an array of strings, especially if creating lots
+of strings. However, it it should be considered a good option, instead of being mandatory
+to use.
+
 ### Style/WhileUntilModifier
 
 [Disabled rule](https://github.com/bbatsov/ruby-style-guide#while-as-a-modifier). Use or

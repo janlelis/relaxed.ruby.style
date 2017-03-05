@@ -5,6 +5,7 @@
 - Disable Style/AsciiComments
 - Disable Style/CommentAnnotation
 - Disable Style/TrailingCommaInArguments
+- Disable Style/WordArray
 
 ## Version 1.1
 
