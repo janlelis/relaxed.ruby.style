@@ -101,6 +101,10 @@ Style/StringLiterals:
   Enabled: false
   StyleGuide: http://relaxed.ruby.style/#stylestringliterals
 
+Style/TrailingCommaInArguments:
+  Enabled: false
+  StyleGuide: http://relaxed.ruby.style/#styletrailingcommainarguments
+
 Style/TrailingCommaInLiteral:
   Enabled: false
   StyleGuide: http://relaxed.ruby.style/#styletrailingcommainliteral

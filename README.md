@@ -160,6 +160,13 @@ Refering to [two-letter version of special global variables](http://idiosyncrati
 [Disabled rule](https://github.com/bbatsov/ruby-style-guide#consistent-string-literals).
 Deliberately use single or double quoted strings!
 
+### Style/TrailingCommaInArguments
+
+[Disabled rule](https://github.com/bbatsov/ruby-style-guide#no-trailing-params-comma).
+Use trailing commas in multi-line argument lists. It makes manipulating the params easier
+(reordering, appending, removing) and leads to smaller git diffs. Consider using RuboCop's
+`EnforcedStyleForMultiline: consistent_comma` option.
+
 ### Style/TrailingCommaInLiteral
 
 [Disabled rule](https://github.com/bbatsov/ruby-style-guide#no-trailing-array-commas).
