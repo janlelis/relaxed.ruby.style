@@ -20,6 +20,8 @@
       
      	<article class="post">
 
+<h2 id="version-11">Version 1.1</h2>
+
 <p>A more liberal style guide for <a href="https://github.com/bbatsov/rubocop">RuboCop</a>. It comes
 with a <a href="http://relaxed.ruby.style/rubocop.yml">config file</a> that deactivates some of
 RuboCop's features. It is meant as a less restrictive foundation that you can use
@@ -49,15 +51,25 @@ might distract you from the helpful messages.</p>
 <p><a href="https://github.com/bbatsov/ruby-style-guide#alias-method">Disabled rule</a>. Feel free to
 use the <code>alias</code> keyword when appropriate.</p>
 
+<h3 id="styleasciicomments">Style/AsciiComments</h3>
+
+<p>You are free to use your source encoding in code comments. For example, if your source
+encoding is UTF-8, you can use UTF-8 characters in comments.</p>
+
 <h3 id="stylebeginblock">Style/BeginBlock</h3>
 
 <p><a href="https://github.com/bbatsov/ruby-style-guide#no-BEGIN-blocks">Disabled rule</a>. Use <code>BEGIN</code>
-blocks when it makes sense.</p>
+blocks when you need its functionality.</p>
 
 <h3 id="styleblockdelimiters">Style/BlockDelimiters</h3>
 
 <p><a href="https://github.com/bbatsov/ruby-style-guide#single-line-blocks">Disabled rule</a>.
 Consider <a href="https://github.com/chneukirchen/styleguide/blob/e60de37b478d3f892f6985a58d573016f33f0269/RUBY-STYLE#L63-L67">using <code>{}</code> for multi-line blocks</a>.</p>
+
+<h3 id="stylecommentannotation">Style/CommentAnnotation</h3>
+
+<p><a href="https://github.com/bbatsov/ruby-style-guide#annotate-keywords">Disabled rule</a>. It is
+totally optional to put a colon and a space behind <strong>TODO</strong>s and <strong>FIXME</strong>s</p>
 
 <h3 id="styledocumentation">Style/Documentation</h3>
 
@@ -78,12 +90,12 @@ to get the boolean value of a variable.</p>
 <h3 id="styleendblock">Style/EndBlock</h3>
 
 <p><a href="https://github.com/bbatsov/ruby-style-guide#no-END-blocks">Disabled rule</a>. Use <code>END</code>
-blocks or `Kernel#at_exit' for code that should be executed when the program quits.</p>
+blocks or <code>Kernel#at_exit</code> for code that should be executed when the program quits.</p>
 
 <h3 id="styleformatstring">Style/FormatString</h3>
 
 <p><a href="https://github.com/bbatsov/ruby-style-guide#sprintf">Disabled rule</a>. Creating format
-string can be done using the <code>String#%</code> method.</p>
+string should be done using the <a href="http://idiosyncratic-ruby.com/49-what-the-format.html"><code>String#%</code> method</a>.</p>
 
 <h3 id="styleifunlessmodifier">Style/IfUnlessModifier</h3>
 
@@ -92,15 +104,15 @@ don't use <code>if</code>/<code>unless</code> in modifier style whenever you thi
 
 <h3 id="stylelambda">Style/Lambda</h3>
 
-<p><a href="https://github.com/bbatsov/ruby-style-guide#lambda-multi-line">Disabled rule</a>. Use
-<code>-&gt;(){}</code> or <code>lambda{}</code> to create lambdas.</p>
+<p><a href="https://github.com/bbatsov/ruby-style-guide#lambda-multi-line">Disabled rule</a>. It does
+not matter if you use <code>-&gt;(){}</code> or <code>lambda{}</code> to create lambdas.</p>
 
 <h3 id="stylemodulefunction">Style/ModuleFunction</h3>
 
 <p><a href="https://github.com/bbatsov/ruby-style-guide#module-function">Disabled rule</a>. Prefer
 <code>extend self</code> over <code>module_function</code>. It uses Ruby's inheritance chain, instead of
 copying all methods. Less magic!
-<a href="http://idiosyncratic-ruby.com/8-self-improvement.html">More Info</a></p>
+<a href="http://idiosyncratic-ruby.com/8-self-improvement.html">More info</a>.</p>
 
 <h3 id="stylemultilineblockchain">Style/MultilineBlockChain</h3>
 
@@ -145,13 +157,12 @@ semicolons to separate multiple statements is OK.</p>
 
 <h3 id="stylesignalexception">Style/SignalException</h3>
 
-<p><a href="https://github.com/bbatsov/ruby-style-guide#fail-method">Disabled rule</a>. You are free
-to choose if you want to raise exceptions with <code>raise</code> or <code>fail</code>.</p>
+<p><em>(Dropped from RuboCop style guide)</em>. You are free to choose if you want to raise
+exceptions with <code>raise</code> or <code>fail</code>.</p>
 
 <h3 id="stylesinglelineblockparams">Style/SingleLineBlockParams</h3>
 
-<p><a href="https://github.com/bbatsov/ruby-style-guide#reduce-blocks">Disabled rule</a>. Don't give
-your block parameters bad names.</p>
+<p><em>(Dropped from RuboCop style guide)</em>. Don't give your block parameters bad names.</p>
 
 <h3 id="stylesinglelinemethods">Style/SingleLineMethods</h3>
 
@@ -172,12 +183,19 @@ For example, when using RSpec's <code>expect</code> method.</p>
 <h3 id="stylespecialglobalvars">Style/SpecialGlobalVars</h3>
 
 <p><a href="https://github.com/bbatsov/ruby-style-guide#no-cryptic-perlisms">Disabled rule</a>.
-Refering to <a href="http://idiosyncratic-ruby.com/9-globalization.html#list-of-all-two-letter-global-variables">two-letter version of special global variables</a> is OK, although not very polite.</p>
+Refering to <a href="http://idiosyncratic-ruby.com/9-globalization.html#list-of-all-special-global-variables">two-letter version of special global variables</a> is OK, although not very polite.</p>
 
 <h3 id="stylestringliterals">Style/StringLiterals</h3>
 
 <p><a href="https://github.com/bbatsov/ruby-style-guide#consistent-string-literals">Disabled rule</a>.
 Deliberately use single or double quoted strings!</p>
+
+<h3 id="styletrailingcommainarguments">Style/TrailingCommaInArguments</h3>
+
+<p><a href="https://github.com/bbatsov/ruby-style-guide#no-trailing-params-comma">Disabled rule</a>.
+Use trailing commas in multi-line argument lists. It makes manipulating the params easier
+(reordering, appending, removing) and leads to smaller git diffs. Consider using RuboCop's
+<code>EnforcedStyleForMultiline: consistent_comma</code> option.</p>
 
 <h3 id="styletrailingcommainliteral">Style/TrailingCommaInLiteral</h3>
 
@@ -185,6 +203,13 @@ Deliberately use single or double quoted strings!</p>
 Use trailing commas in multi-line literals. It makes manipulating the literal easier
 (reordering, appending, removing) and leads to smaller git diffs. Consider using RuboCop's
 <code>EnforcedStyleForMultiline: consistent_comma</code> option.</p>
+
+<h3 id="stylewordarray">Style/WordArray</h3>
+
+<p><a href="https://en.wikibooks.org/wiki/Ruby_Programming/Syntax/Literals#The_.25_Notation">Word arrays using the percent syntax</a>
+make for a good and concise way to create an array of strings, especially if creating lots
+of strings. However, it it should be considered a good option, instead of being mandatory
+to use.</p>
 
 <h3 id="stylewhileuntilmodifier">Style/WhileUntilModifier</h3>
 
@@ -198,31 +223,26 @@ readability.</p>
 
 <h3 id="lintassignmentincondition">Lint/AssignmentInCondition</h3>
 
-<p><a href="https://github.com/bbatsov/ruby-style-guide#safe-assignment-in-condition">Disabled rule</a>. Use <code>=</code> for assignments in conditions. Use <code>==</code> for comparisons in conditions.</p>
+<p><a href="https://github.com/bbatsov/ruby-style-guide#safe-assignment-in-condition">Disabled rule</a>.
+Use <code>=</code> for assignments in conditions. Use <code>==</code> for comparisons in conditions.</p>
 
 <h3 id="metrics">Metrics</h3>
 
 <p>RuboCop's code complexity metrics can be very useful indications, however, they should
 be discussed, tweaked and activated individually.</p>
 
-<h2 id="discussion">Discussion</h2>
-
-<ul>
-  <li><a href="https://github.com/janlelis/relaxed.ruby.style/issues/">This Guide</a></li>
-  <li><a href="https://github.com/bbatsov/ruby-style-guide/issues/">Ruby Style Guide (Rubocop)</a></li>
-</ul>
-
 <h2 id="other-ruby-style-guides">Other Ruby Style Guides</h2>
 
 <ul>
   <li><a href="https://github.com/chneukirchen/styleguide/blob/master/RUBY-STYLE">Christian Neukirchen</a></li>
   <li><a href="https://github.com/JuanitoFatas/fast-ruby">Fast Ruby</a></li>
-  <li><a href="https://github.com/bbatsov/ruby-style-guide/issues/">Ruby Style Guide (Rubocop)</a>
+  <li><a href="https://github.com/bbatsov/ruby-style-guide/">Ruby Style Guide (Rubocop)</a>
     <ul>
       <li><a href="https://github.com/styleguide/ruby">GitHub</a></li>
       <li><a href="https://github.com/airbnb/ruby">Airbnb</a></li>
     </ul>
   </li>
+  <li><a href="http://shopify.github.io/ruby-style-guide/">Shopify</a></li>
 </ul>
 
 </article>
