@@ -1,4 +1,4 @@
-# [Relaxed.Ruby.Style](http://relaxed.ruby.style)
+# [Relaxed Ruby Style](http://relaxed.ruby.style)
 
 ## Version 2.0
 
@@ -220,3 +220,7 @@ be discussed, tweaked and activated individually.
   * [Airbnb](https://github.com/airbnb/ruby)
 * [Shopify](http://shopify.github.io/ruby-style-guide/)
 
+## Also See
+
+* [Idiosyncratic Ruby](https://idiosyncratic-ruby.com)
+* [Standard Gems](https://stdgems.org)
