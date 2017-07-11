@@ -1,5 +1,5 @@
 # Relaxed.Ruby.Style
-## Version 2.0
+## Version 2.1
 
 Style/Alias:
   Enabled: false
@@ -25,9 +25,9 @@ Style/Documentation:
   Enabled: false
   StyleGuide: http://relaxed.ruby.style/#styledocumentation
 
-Style/DotPosition:
+Layout/DotPosition:
   Enabled: false
-  StyleGuide: http://relaxed.ruby.style/#styledotposition
+  StyleGuide: http://relaxed.ruby.style/#layoutdotposition
 
 Style/DoubleNegation:
   Enabled: false
@@ -93,13 +93,13 @@ Style/SingleLineMethods:
   Enabled: false
   StyleGuide: http://relaxed.ruby.style/#stylesinglelinemethods
 
-Style/SpaceBeforeBlockBraces:
+Layout/SpaceBeforeBlockBraces:
   Enabled: false
-  StyleGuide: http://relaxed.ruby.style/#stylespacebeforeblockbraces
+  StyleGuide: http://relaxed.ruby.style/#layoutspacebeforeblockbraces
 
-Style/SpaceInsideParens:
+Layout/SpaceInsideParens:
   Enabled: false
-  StyleGuide: http://relaxed.ruby.style/#stylespaceinsideparens
+  StyleGuide: http://relaxed.ruby.style/#layoutspaceinsideparens
 
 Style/SpecialGlobalVars:
   Enabled: false
