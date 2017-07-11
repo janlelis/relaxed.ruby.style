@@ -1,5 +1,11 @@
 # Change Log
 
+## Version 2.1
+
+- Style/DotPosition             -> Layout/DotPosition
+- Style/SpaceBeforeBlockBraces  -> Layout/SpaceBeforeBlockBraces
+- Style/SpaceInsideParens       -> Layout/SpaceInsideParens
+
 ## Version 2.0
 
 - Disable Style/AsciiComments
