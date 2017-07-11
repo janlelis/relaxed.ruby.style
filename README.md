@@ -56,7 +56,7 @@ totally optional to put a colon and a space behind **TODO**s and **FIXME**s
 Document your code and/or write a good ReadMe. And good specs. Choose descriptive
 method and variable names!
 
-### Style/DotPosition
+### Layout/DotPosition
 
 [Disabled rule](https://github.com/bbatsov/ruby-style-guide#consistent-multi-line-chains).
 When chaining methods on multiple lines, it is a good idea to put the dots at the end of
@@ -150,11 +150,11 @@ exceptions with `raise` or `fail`.
 Single-line methods can be useful for short getter- or setter-like methods, when
 `attr_reader` / `attr_accessor` / `attr_writer` are not enough anymore.
 
-### Style/SpaceBeforeBlockBraces
+### Layout/SpaceBeforeBlockBraces
 
 It is not important if there is a space between a method call and a passed block.
 
-### Style/SpaceInsideParens
+### Layout/SpaceInsideParens
 
 [Disabled rule](https://github.com/bbatsov/ruby-style-guide#no-spaces-braces). Avoid
 putting spaces inside parentheses, but do it when it improves readability.
