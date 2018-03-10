@@ -1,5 +1,11 @@
 # Change Log
 
+## Version 2.2
+
+- Style/TrailingCommaInLiteral split into:
+  - Style/TrailingCommaInArrayLiteral
+  - Style/TrailingCommaInHashLiteral:
+
 ## Version 2.1
 
 - Style/DotPosition             -> Layout/DotPosition
