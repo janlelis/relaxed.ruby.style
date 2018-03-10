@@ -1,5 +1,5 @@
 # Relaxed.Ruby.Style
-## Version 2.1
+## Version 2.2
 
 Style/Alias:
   Enabled: false
@@ -113,9 +113,13 @@ Style/TrailingCommaInArguments:
   Enabled: false
   StyleGuide: http://relaxed.ruby.style/#styletrailingcommainarguments
 
-Style/TrailingCommaInLiteral:
+Style/TrailingCommaInArrayLiteral:
   Enabled: false
-  StyleGuide: http://relaxed.ruby.style/#styletrailingcommainliteral
+  StyleGuide: http://relaxed.ruby.style/#styletrailingcommainarrayliteral
+
+Style/TrailingCommaInHashLiteral:
+  Enabled: false
+  StyleGuide: http://relaxed.ruby.style/#styletrailingcommainhashliteral
 
 Style/WhileUntilModifier:
   Enabled: false
