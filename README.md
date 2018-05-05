@@ -1,9 +1,9 @@
-# [Relaxed Ruby Style](http://relaxed.ruby.style)
+# [Relaxed Ruby Style](https://relaxed.ruby.style)
 
 ## Version 2.2
 
 A more liberal style guide for [RuboCop](https://github.com/bbatsov/rubocop). It comes
-with a [config file](http://relaxed.ruby.style/rubocop.yml) that deactivates some of
+with a [config file](https://relaxed.ruby.style/rubocop.yml) that deactivates some of
 RuboCop's features. It is meant as a less restrictive foundation that you can use
 directly or base your style discussions on.
 
@@ -22,7 +22,7 @@ This is not a stand-alone style guide, but a patch applied to
 
 ### Usage
 
-Use, copy or inherit from [`rubocop.yml`](http://relaxed.ruby.style/rubocop.yml).
+Use, copy or inherit from [`rubocop.yml`](https://relaxed.ruby.style/rubocop.yml).
 
 ## Disabled Cops & Relaxed Style Recommendations
 
@@ -75,7 +75,7 @@ blocks or `Kernel#at_exit` for code that should be executed when the program qui
 ### Style/FormatString
 
 [Disabled rule](https://github.com/bbatsov/ruby-style-guide#sprintf). Creating format
-string should be done using the [`String#%` method](http://idiosyncratic-ruby.com/49-what-the-format.html).
+string should be done using the [`String#%` method](https://idiosyncratic-ruby.com/49-what-the-format.html).
 
 ### Style/IfUnlessModifier
 
@@ -92,7 +92,7 @@ not matter if you use `->(){}` or `lambda{}` to create lambdas.
 [Disabled rule](https://github.com/bbatsov/ruby-style-guide#module-function). Prefer
 `extend self` over `module_function`. It uses Ruby's inheritance chain, instead of
 copying all methods. Less magic!
-[More info](http://idiosyncratic-ruby.com/8-self-improvement.html).
+[More info](https://idiosyncratic-ruby.com/8-self-improvement.html).
 
 ### Style/MultilineBlockChain
 
@@ -163,7 +163,7 @@ For example, when using RSpec's `expect` method.
 ### Style/SpecialGlobalVars
 
 [Disabled rule](https://github.com/bbatsov/ruby-style-guide#no-cryptic-perlisms).
-Refering to [two-letter version of special global variables](http://idiosyncratic-ruby.com/9-globalization.html#list-of-all-special-global-variables) is OK, although not very polite.
+Refering to [two-letter version of special global variables](https://idiosyncratic-ruby.com/9-globalization.html#list-of-all-special-global-variables) is OK, although not very polite.
 
 ### Style/StringLiterals
 
@@ -218,7 +218,7 @@ be discussed, tweaked and activated individually.
 * [Ruby Style Guide (Rubocop)](https://github.com/bbatsov/ruby-style-guide/)
   * [GitHub](https://github.com/styleguide/ruby)
   * [Airbnb](https://github.com/airbnb/ruby)
-* [Shopify](http://shopify.github.io/ruby-style-guide/)
+* [Shopify](https://shopify.github.io/ruby-style-guide/)
 
 ## Also See
 
