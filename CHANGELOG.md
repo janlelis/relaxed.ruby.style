@@ -1,5 +1,9 @@
 # Change Log
 
+## Version 2.3
+
+- Use HTTPS links everywhere
+
 ## Version 2.2
 
 - Style/TrailingCommaInLiteral split into:
