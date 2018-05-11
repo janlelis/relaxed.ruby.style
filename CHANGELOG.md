@@ -3,6 +3,7 @@
 ## Version 2.3
 
 - Use HTTPS links everywhere
+- First gem release
 
 ## Version 2.2
 
