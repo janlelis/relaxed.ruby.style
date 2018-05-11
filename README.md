@@ -22,7 +22,20 @@ This is not a stand-alone style guide, but a patch applied to
 
 ### Usage
 
-Use, copy or inherit from [`rubocop.yml`](https://relaxed.ruby.style/rubocop.yml).
+Use, copy or inherit from [rubocop.yml](https://relaxed.ruby.style/rubocop.yml).
+One way is to add the following lines to your `.rubocop.yml`:
+
+    inherit_from:
+    - https://relaxed.ruby.style/rubocop.yml
+
+You could also get the styleguide via rubygems. Add to your `Gemfile`:
+
+    gem "relaxed-rubocop"
+
+And in your `.rubocop.yml`:
+
+    inherit_gem:
+      relaxed-rubocop: .rubocop.yml
 
 ## Disabled Cops & Relaxed Style Recommendations
 
