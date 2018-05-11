@@ -43,7 +43,23 @@ might distract you from the helpful messages.</p>
 
 <h3 id="usage">Usage</h3>
 
-<p>Use, copy or inherit from <a href="https://relaxed.ruby.style/rubocop.yml"><code>rubocop.yml</code></a>.</p>
+<p>Use, copy or inherit from <a href="https://relaxed.ruby.style/rubocop.yml">rubocop.yml</a>.
+One way is to add the following lines to your <code>.rubocop.yml</code>:</p>
+
+<pre><code>inherit_from:
+- https://relaxed.ruby.style/rubocop.yml
+</code></pre>
+
+<p>You could also get the styleguide via rubygems. Add to your <code>Gemfile</code>:</p>
+
+<pre><code>gem "relaxed-rubocop"
+</code></pre>
+
+<p>And in your <code>.rubocop.yml</code>:</p>
+
+<pre><code>inherit_gem:
+  relaxed-rubocop: .rubocop.yml
+</code></pre>
 
 <h2 id="disabled-cops--relaxed-style-recommendations">Disabled Cops &amp; Relaxed Style Recommendations</h2>
 
@@ -235,15 +251,15 @@ be discussed, tweaked and activated individually.</p>
 <h2 id="other-ruby-style-guides">Other Ruby Style Guides</h2>
 
 <ul>
-  <li><a href="https://github.com/chneukirchen/styleguide/blob/master/RUBY-STYLE">Christian Neukirchen</a></li>
+  <li><a href="https://github.com/chneukirchen/styleguide/blob/master/RUBY-STYLE">Leah Neukirchen</a></li>
   <li><a href="https://github.com/JuanitoFatas/fast-ruby">Fast Ruby</a></li>
   <li><a href="https://github.com/bbatsov/ruby-style-guide/">Ruby Style Guide (Rubocop)</a>
     <ul>
       <li><a href="https://github.com/styleguide/ruby">GitHub</a></li>
       <li><a href="https://github.com/airbnb/ruby">Airbnb</a></li>
+      <li><a href="https://shopify.github.io/ruby-style-guide/">Shopify</a></li>
     </ul>
   </li>
-  <li><a href="https://shopify.github.io/ruby-style-guide/">Shopify</a></li>
 </ul>
 
 <h2 id="also-see">Also See</h2>
