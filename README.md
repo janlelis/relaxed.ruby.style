@@ -213,12 +213,12 @@ be discussed, tweaked and activated individually.
 
 ## Other Ruby Style Guides
 
-* [Christian Neukirchen](https://github.com/chneukirchen/styleguide/blob/master/RUBY-STYLE)
+* [Leah Neukirchen](https://github.com/chneukirchen/styleguide/blob/master/RUBY-STYLE)
 * [Fast Ruby](https://github.com/JuanitoFatas/fast-ruby)
 * [Ruby Style Guide (Rubocop)](https://github.com/bbatsov/ruby-style-guide/)
   * [GitHub](https://github.com/styleguide/ruby)
   * [Airbnb](https://github.com/airbnb/ruby)
-* [Shopify](https://shopify.github.io/ruby-style-guide/)
+  * [Shopify](https://shopify.github.io/ruby-style-guide/)
 
 ## Also See
 
