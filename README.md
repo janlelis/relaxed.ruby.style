@@ -248,3 +248,5 @@ Find more at [ruby.style](https://ruby.style)
 
 * [Idiosyncratic Ruby](https://idiosyncratic-ruby.com)
 * [Standard Gems](https://stdgems.org)
+
+[Contact](https://janlelis.com) / [Data Protection](https://janlelis.com/data-protection)
