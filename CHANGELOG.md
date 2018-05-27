@@ -1,5 +1,9 @@
 # Change Log
 
+## Next Version
+
+- Disable Style/SymbolArray
+
 ## Version 2.3
 
 - Use HTTPS links everywhere

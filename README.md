@@ -190,6 +190,11 @@ Use trailing commas in multi-line argument lists. It makes manipulating the para
 (reordering, appending, removing) and leads to smaller git diffs. Consider using RuboCop's
 `EnforcedStyleForMultiline: consistent_comma` option.
 
+### Style/SymbolArray
+
+[Disabled rule](https://github.com/bbatsov/ruby-style-guide#percent-i). You can use the
+`%i` syntax for an array of symbols, but usage of an array of symbols is fine, too.
+
 ### Style/TrailingCommaInLiteral
 
 [Disabled rule](https://github.com/bbatsov/ruby-style-guide#no-trailing-array-commas).
