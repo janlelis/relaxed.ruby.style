@@ -25,6 +25,7 @@ end
 require 'middleman-gh-pages'
 
 desc 'Deploy to relaxed.ruby.style'
-task :deploy do
-  sh 'git checkout website && rake publish && git checkout gh-pages && git pull origin gh-pages && git push production gh-pages:gh-pages && git checkout website'
+task :deploy => :publish do
+  sh "git checkout gh-pages && git pull origin gh-pages && git push production gh-pages:master -f && git checkout -"
 end
+
