@@ -121,6 +121,10 @@ Style/TrailingCommaInHashLiteral:
   Enabled: false
   StyleGuide: https://relaxed.ruby.style/#styletrailingcommainhashliteral
 
+Style/SymbolArray:
+  Enabled: false
+  StyleGuide: http://relaxed.ruby.style/#stylesymbolarray
+
 Style/WhileUntilModifier:
   Enabled: false
   StyleGuide: https://relaxed.ruby.style/#stylewhileuntilmodifier
