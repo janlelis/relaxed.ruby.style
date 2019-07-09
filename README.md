@@ -3,7 +3,7 @@
 ## Version 2.4
 
 A more liberal style guide for [RuboCop](https://github.com/rubocop-hq/rubocop). It comes
-with a [config file](https://relaxed.ruby.style/rubocop.yml) that deactivates some of
+with a [config file](https://relaxed.ruby.style/rubocop.yml) which deactivates some of
 RuboCop's features. It is meant as a less restrictive foundation that you can use
 directly or base your style discussions on.
 
@@ -11,8 +11,6 @@ directly or base your style discussions on.
 
 RuboCop is an amazing tool, still some of its default rules feel overly strict. This
 might distract you from the helpful messages.
-
-**Warning:** Does include opinionated style advice.
 
 ### How to Read this Style Guide
 
@@ -243,6 +241,8 @@ be discussed, tweaked and activated individually.
   * [GitHub](https://github.com/styleguide/ruby)
   * [Airbnb](https://github.com/airbnb/ruby)
   * [Shopify](https://shopify.github.io/ruby-style-guide/)
+
+Find more at [ruby.style](https://ruby.style)
 
 ## Also See
 
