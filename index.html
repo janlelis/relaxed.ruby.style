@@ -20,10 +20,10 @@
 
      	<article class="post">
 
-<h2 id="version-23">Version 2.3</h2>
+<h2 id="version-24">Version 2.4</h2>
 
 <p>A more liberal style guide for <a href="https://github.com/rubocop-hq/rubocop">RuboCop</a>. It comes
-with a <a href="https://relaxed.ruby.style/rubocop.yml">config file</a> that deactivates some of
+with a <a href="https://relaxed.ruby.style/rubocop.yml">config file</a> which deactivates some of
 RuboCop's features. It is meant as a less restrictive foundation that you can use
 directly or base your style discussions on.</p>
 
@@ -31,8 +31,6 @@ directly or base your style discussions on.</p>
 
 <p>RuboCop is an amazing tool, still some of its default rules feel overly strict. This
 might distract you from the helpful messages.</p>
-
-<p><strong>Warning:</strong> Does include opinionated style advice.</p>
 
 <h3 id="how-to-read-this-style-guide">How to Read this Style Guide</h3>
 
@@ -147,6 +145,12 @@ OK to use <code>unless condition</code>.</p>
 <p><a href="https://github.com/rubocop-hq/ruby-style-guide#until-for-negatives">Disabled rule</a>. Always
 use <code>while !condition</code> for complex conditions with negations. For simple conditions,
 it is also OK to use <code>until condition</code>.</p>
+
+<h3 id="stylenumericpredicate">Style/NumericPredicate</h3>
+
+<p><a href="https://github.com/rubocop-hq/ruby-style-guide#predicate-methods">Disabled rule</a>.
+Numprical predicates (like <code>x.negative?</code>) can be used when it improves code readability,
+but using explicit comparisons (like <code>x &lt; 0</code>) is good, too.</p>
 
 <h3 id="styleparallelassignment">Style/ParallelAssignment</h3>
 
@@ -265,6 +269,8 @@ be discussed, tweaked and activated individually.</p>
     </ul>
   </li>
 </ul>
+
+<p>Find more at <a href="https://ruby.style">ruby.style</a></p>
 
 <h2 id="also-see">Also See</h2>
 

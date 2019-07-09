@@ -1,5 +1,5 @@
 # Relaxed.Ruby.Style
-## Version 2.2
+## Version 2.4
 
 Style/Alias:
   Enabled: false
@@ -64,6 +64,10 @@ Style/NegatedIf:
 Style/NegatedWhile:
   Enabled: false
   StyleGuide: https://relaxed.ruby.style/#stylenegatedwhile
+
+Style/NumericPredicate:
+  Enabled: false
+  StyleGuide: https://relaxed.ruby.style/#stylenumericpredicate
 
 Style/ParallelAssignment:
   Enabled: false
