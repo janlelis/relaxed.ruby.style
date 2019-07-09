@@ -125,6 +125,12 @@ OK to use `unless condition`.
 use `while !condition` for complex conditions with negations. For simple conditions,
 it is also OK to use `until condition`.
 
+### Style/NumericPredicate
+
+[Disabled rule](https://github.com/rubocop-hq/ruby-style-guide#predicate-methods).
+Numprical predicates (like `x.negative?`) can be used when it improves code readability,
+but using explicit comparisons (like `x < 0`) is good, too.
+
 ### Style/ParallelAssignment
 
 [Disabled rule](https://github.com/rubocop-hq/ruby-style-guide#parallel-assignment).

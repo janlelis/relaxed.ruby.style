@@ -3,6 +3,7 @@
 ## Next Version
 
 - Disable Style/SymbolArray
+- Disable Style/NumericPredicate
 
 ## Version 2.3
 
