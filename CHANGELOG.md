@@ -1,6 +1,6 @@
 # Change Log
 
-## Next Version
+## Version 2.4
 
 - Disable Style/SymbolArray
 - Disable Style/NumericPredicate
