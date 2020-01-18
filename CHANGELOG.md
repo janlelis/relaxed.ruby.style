@@ -1,5 +1,9 @@
 # Change Log
 
+## Version 2.5 (unreleased)
+
+- Metrics/LineLength -> Layout/LineLength
+
 ## Version 2.4
 
 - Disable Style/SymbolArray
