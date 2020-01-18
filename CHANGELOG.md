@@ -3,6 +3,7 @@
 ## Version 2.5 (unreleased)
 
 - Metrics/LineLength -> Layout/LineLength
+- Disable all metrics cops via prefix, not individually
 
 ## Version 2.4
 

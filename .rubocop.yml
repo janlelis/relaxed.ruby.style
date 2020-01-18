@@ -145,30 +145,9 @@ Lint/AssignmentInCondition:
   Enabled: false
   StyleGuide: https://relaxed.ruby.style/#lintassignmentincondition
 
-Metrics/AbcSize:
-  Enabled: false
-
-Metrics/BlockNesting:
-  Enabled: false
-
-Metrics/ClassLength:
-  Enabled: false
-
-Metrics/ModuleLength:
-  Enabled: false
-
-Metrics/CyclomaticComplexity:
-  Enabled: false
-
 Layout/LineLength:
   Enabled: false
 
-Metrics/MethodLength:
-  Enabled: false
-
-Metrics/ParameterLists:
-  Enabled: false
-
-Metrics/PerceivedComplexity:
+Metrics:
   Enabled: false
 
