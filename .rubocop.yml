@@ -1,5 +1,5 @@
 # Relaxed.Ruby.Style
-## Version 2.5
+## Version 3.0
 
 Style/Alias:
   Enabled: false
@@ -151,3 +151,114 @@ Layout/LineLength:
 Metrics:
   Enabled: false
 
+Gemspec/DateAssignment:
+  Enabled: true
+
+Layout/LineEndStringConcatenationIndentation:
+  Enabled: true
+  EnforcedStyle: aligned
+
+Layout/SpaceBeforeBrackets:
+  Enabled: True
+
+Layout/Lint/AmbiguousAssignment:
+  Enabled: true
+
+Lint/DeprecatedConstants:
+  Enabled: true
+
+Lint/DuplicateBranch:
+  Enabled: true
+  IgnoreLiteralBranches: true
+  IgnoreConstantBranches: true
+
+Lint/DuplicateRegexpCharacterClassElement:
+  Enabled: true
+
+Lint/EmptyBlock:
+  Enabled: true
+
+Lint/EmptyClass:
+  Enabled: true
+  AllowComments: true
+
+Lint/EmptyInPattern:
+  Enabled: true
+
+Lint/LambdaWithoutLiteralBlock:
+  Enabled: true
+
+Lint/NoReturnInBeginEndBlocks:
+  Enabled: true
+
+Lint/NumberedParameterAssignment:
+  Enabled: true
+
+Lint/OrAssignmentToConstant:
+  Enabled: true
+
+Lint/RedundantDirGlobSort:
+  Enabled: true
+
+Lint/SymbolConversion:
+  Enabled: false
+  StyleGuide: https://relaxed.ruby.style/#lintsymbolconversion
+
+Lint/ToEnumArguments:
+  Enabled: true
+
+Lint/TripleQuotes:
+  Enabled: true
+
+Lint/UnexpectedBlockArity:
+  Enabled: true
+  StyleGuide: https://relaxed.ruby.style/#lintunexpectedblockarity
+
+Lint/UnmodifiedReduceAccumulator:
+  Enabled: true
+
+Naming/InclusiveLanguage:
+  Enabled: false
+  StyleGuide: https://relaxed.ruby.style/#naminginclusivelanguage
+
+Style/ArgumentsForwarding:
+  Enabled: true
+
+Style/CollectionCompact:
+  Enabled: true
+
+Style/DocumentDynamicEvalDefinition:
+  Enabled: true
+
+Style/EndlessMethod:
+  Enabled: true
+
+Style/HashConversion:
+  Enabled: true
+
+Style/HashExcept:
+  Enabled: true
+
+Style/IfWithBooleanLiteralBranches:
+  Enabled: true
+
+Style/InPatternThen:
+  Enabled: true
+
+Style/NegatedIfElseCondition:
+  Enabled: false
+
+Style/NilLambda:
+  Enabled: true
+
+Style/QuotedSymbols:
+  Enabled: false
+
+Style/RedundantArgument:
+  Enabled: true
+
+Style/StringChars:
+  Enabled: true
+
+Style/SwapValues:
+  Enabled: true

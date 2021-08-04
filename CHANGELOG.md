@@ -1,5 +1,15 @@
 # Change Log
 
+## Version 3.0
+
+- Enabled all new cops present in Rubocop 1.18.4, see below for deviations
+- Enabled Lint/EmptyClass with AllowComments
+- Enabled Lint/DuplicateBranch with IgnoreLiteralBranches and IgnoreConstantBranches
+- Disabled Lint/SymbolConversion
+- Disabled Naming/InclusiveLanguage
+- Disabled Style/QuotedSymbols
+- Disabled Style/NegatedIfElseCondition
+
 ## Version 2.5
 
 - Metrics/LineLength -> Layout/LineLength
