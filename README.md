@@ -244,6 +244,12 @@ be discussed, tweaked and activated individually.
 
 Find more at [ruby.style](https://ruby.style)
 
+### Taking this Style Guide Forward
+
+If you like this style guide and have an idea how to improve it, feel free to create
+an issue or pull request. Please create an extra issue per RuboCop rule that you want to
+see changed so that it can be merged or rejected individually.
+
 ## Also See
 
 * [Idiosyncratic Ruby](https://idiosyncratic-ruby.com)
